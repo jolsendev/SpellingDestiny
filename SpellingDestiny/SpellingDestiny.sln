@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SpellingDestiny", "SpellingDestiny\SpellingDestiny.pyproj", "{065A056E-3B93-426B-866B-FCB9E360C6E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065A056E-3B93-426B-866B-FCB9E360C6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065A056E-3B93-426B-866B-FCB9E360C6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065A056E-3B93-426B-866B-FCB9E360C6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065A056E-3B93-426B-866B-FCB9E360C6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D00A7972-76EC-48BC-B076-49AB42F78150}
+	EndGlobalSection
+EndGlobal
