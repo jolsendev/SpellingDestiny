@@ -3,5 +3,4 @@ def is_word_in_file(file, word):
 		for x in f:
 			if x == word:
 				return True;
-			print(x)
 		return False
