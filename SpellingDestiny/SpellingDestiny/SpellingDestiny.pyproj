@@ -7,7 +7,7 @@
     <ProjectGuid>065a056e-3b93-426b-866b-fcb9e360c6e4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>update_spelling_words.py</StartupFile>
+    <StartupFile>Utilites\transferSD.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,14 +31,18 @@
     <Compile Include="runserver.py" />
     <Compile Include="SpellingDestiny\__init__.py" />
     <Compile Include="SpellingDestiny\views.py" />
-    <Compile Include="spelling_utility.py">
+    <Compile Include="Utilites\spelling_utility.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="update_spelling_words.py">
+    <Compile Include="Utilites\transferSD.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utilites\update_spelling_words.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Utilites\" />
     <Folder Include="Words\" />
     <Folder Include="SpellingDestiny\" />
     <Folder Include="SpellingDestiny\static\" />
@@ -75,10 +79,6 @@
     <Content Include="SpellingDestiny\templates\contact.html" />
     <Content Include="SpellingDestiny\templates\index.html" />
     <Content Include="SpellingDestiny\templates\layout.html" />
-    <Content Include="Words\3rd_grade.txt" />
-    <Content Include="Words\4th_grade.txt" />
-    <Content Include="Words\5th_grade.txt" />
-    <Content Include="Words\6th_grade.txt" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
